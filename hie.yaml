@@ -1,0 +1,7 @@
+cradle:
+  cabal:
+    components:
+    - path: "./src"
+      comonent : "exe:AOC2020"
+
+

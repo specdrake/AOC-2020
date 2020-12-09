@@ -31,7 +31,7 @@ solve3 xs =
 
 main :: IO ()
 main = do
-  handle <- openFile "inp1.txt" ReadMode
+  handle <- openFile "data/inp1.txt" ReadMode
   contents <- hGetContents handle
   let lns = lines contents
   traverse_ putStrLn lns
