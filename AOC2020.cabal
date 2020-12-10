@@ -17,7 +17,8 @@ build-type:          Simple
 extra-source-files:  CHANGELOG.md
 
 executable AOC2020
-  main-is:             day2.hs 
+  main-is:             day3.hs 
+                       --day2.hs 
                        --day1.hs
   -- other-modules:
   -- other-extensions:
